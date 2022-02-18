@@ -2,7 +2,7 @@
 
 int main() {
   int original = 100;
-  int& original_ref = original;
+  int &original_ref = original;
   printf("Original:  %d\n", original); 
   printf("Reference: %d\n", original_ref); 
 
