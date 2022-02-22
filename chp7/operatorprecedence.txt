@@ -1,0 +1,263 @@
+operator     precedence
+
+
+
+a::b
+
+        Scope resolution
+
+                    Left to right
+
+a++
+
+        Postfix increment
+
+                        Left to right
+
+a--
+
+        Postfix decrement
+
+fn()
+
+        Function call
+
+a[b]
+
+        Subscript
+
+a->b
+
+        Member of pointer
+
+a.b
+
+        Member of object
+
+Type(a)
+
+        Functional cast
+
+Type{ a }
+
+        Functional cast
+
+++a
+
+        Prefix increment
+
+        Right to left
+
+--a
+
+        Prefix decrement
+
++a
+        
+        Unary plus
+
+-a
+
+        Unary minus
+
+!a
+
+        Logical NOT
+
+~a
+
+        Bitwise complement
+
+(Type)a
+
+        C-style cast
+
+*a
+
+        Dereference
+
+&a
+
+         Address of
+
+sizeof(Type)
+
+        Size of
+
+new Type
+
+          Dynamic allocation
+
+new Type[]
+
+        Dynamic allocation (array)
+
+delete a
+
+        Dynamic deallocation
+
+delete[] a
+
+        Dynamic deallocation (array)
+
+.*
+
+->*
+
+        Pointer-to-member-of-pointer
+
+        Pointer-to-member-of-object
+        
+        Left to right
+
+a * b
+
+a / b
+
+a % b
+
+        Multiplication
+
+        Division
+
+        Modulo division
+
+        Left to right
+
+a + b
+
+a - b
+
+        Addition
+
+        Subtraction
+
+        Left to right
+
+a << b
+
+a >> b
+
+        Bitwise left shift
+
+        Bitwise right shift
+
+        Left to right
+
+a < b
+
+        Less than
+
+        Left to right
+
+a > b
+
+        Greater than
+
+a <= b
+
+        Less than or equal to
+
+a >= b
+
+        Greater than or equal to
+
+a == b
+
+a != b
+
+        Equals
+
+        Not equals
+
+        Left to right
+
+a & b
+
+        Bitwise AND
+        
+        Left to right
+
+a ^ b
+
+        Bitwise AND
+
+        Left to right
+
+a | b
+
+        Bitwise OR
+
+        Left to right
+
+a && b
+
+        Logical AND
+
+        Left to right
+
+a || b
+
+        Logical OR
+
+        Left to right
+
+a ? b : c
+
+        Ternary
+
+        Right to left
+
+throw a
+
+        Throw
+
+a = b
+
+        Assignment
+
+a += b
+
+        Sum assignment
+
+a -= b
+
+        Difference assignment
+
+a *= b
+
+        Product assignment
+
+a /= b
+
+        Quotient assignment
+
+a %= b
+
+        Remainder assignment
+
+a <<= b
+
+        Bitwise-left-shift assignment
+
+a >>= b
+
+        Bitwise-right-shift assignment
+
+a &= b
+
+        Bitwise AND assignment
+
+a ^= b
+
+        Bitwise XOR assignment
+
+a |= b
+
+        Bitwise OR assignment
+
+a, b
+
+        Comma
+
+        Left to right
